@@ -4,18 +4,18 @@ Solve the classic FizzBuzz problem without ever using more than two logical line
 
 
 ## Purpose
-The purpose of this excercise is to test the limits of abstraction and single responsibility functions.  I plan to write my functions so that they document themselves while using as little commeting as possible
+The purpose of this exercise is to test the limits of abstraction and single responsibility functions.  I plan to write my functions so that they document themselves while using as little commenting as possible
 
-## Problem Describtion
+## Problem Description
 
 ### FizzBuzz
-FizzBuzz is a well known programming problem whereby you must print the numbers from 1 to 100 and you must print 'fizz' instead of each number that is a multiple of three and 'buzz' instead of each number that is a multiple of five. Numbers that are multiples of three and five mut be replaced by 'fizzbuzz'  
+FizzBuzz is a well known programming problem whereby you must print the numbers from 1 to 100 and you must print 'Fizz' instead of each number that is a multiple of three and 'Buzz' instead of each number that is a multiple of five. Numbers that are multiples of three and five mut be replaced by 'FizzBuzz'  
 Here is the [Wikipedia article](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 <a name="#logical_lines_of_code"></a>
 ### Logical Lines of Code
 Logical lines of code have been historically rather difficult to measure. I have two general rules regarding lines of code
-#### 1. Follow normal standards in seperating lines
+#### 1. Follow normal standards in separating lines
 
 ```
 def examplePythonFunction0():
@@ -48,4 +48,4 @@ func exampleC++Function1(){
 Would both be two logical lines of code because the closing bracket is pure syntax.
 
 ## Future Work
-Should this first excercise be succesful, I may change the name of this project to be more generic and add more excercises with these same rules
+Should this first exercise be successful, I may change the name of this project to be more generic and add more exercises with these same rules
