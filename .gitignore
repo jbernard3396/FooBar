@@ -1,6 +1,7 @@
 # ignoring pycharm stuff
 *.xml
 *.iml
+*.name
 
 # for some reason this file doesnt want to be ignored
 .idea/FooBar.iml
