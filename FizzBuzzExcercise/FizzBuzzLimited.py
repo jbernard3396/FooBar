@@ -1,5 +1,8 @@
+# FizzBuzz where each function has no more than two lines of code.  Otherwise straightforward.
+
+
 def Main():
-    for i in range(1, 100, +1):  # find a more elegant way to get the correct range
+    for i in range(1, 101, +1):  # find a more elegant way to get the correct range
         fizzBuzz(i)
 
 

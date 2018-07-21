@@ -49,3 +49,6 @@ Would both be two logical lines of code because the closing bracket is pure synt
 
 ## Future Work
 Should this first exercise be successful, I may change the name of this project to be more generic and add more exercises with these same rules
+
+## Special Thanks
+Special thanks to EdricY for submitting his extra limited version of the problem where each line has only one line of code

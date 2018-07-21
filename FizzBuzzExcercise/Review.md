@@ -3,21 +3,22 @@ Mission was successful.  I was able to get the exact functionality I wanted with
 
 # Statistical comparison of limited to regular file
 
-| Category                 | Limited       | Regular |
-| ------------------------ |:-------------:| :------:|
-| Physical Lines           | 77            | 19      |
-| Logical Lines            | 27            | 12      |
-| Functions                | 16            | 2       |
-| ComparisonsPerIteration  | 13            | 2.63    |
-| RecycleFactor*           | .62           | .4      |
-| #ClarifyingComments      | 0             | 1       |
+| Category                 | Regular       | Limited | Extra Limited |
+| ------------------------ |:-------------:|:-------:|:-------------:|
+| Physical Lines           | 22            | 80      | 45            |
+| Logical Lines            | 27            | 12      | 20            |
+| Functions                | 16            | 2       | 10            |
+| ComparisonsPerIteration  | 13            | 2.63    | 4             |
+| RecycleFactor*           | .62           | .40     | .83           |
+| #ClarifyingComments      | 0             | 1       | 0             |
 
-*Recycle Factor is a measurement metric that I Created to measure how well code is recycled.  It is measured by simply 
+*Recycle Factor is a measurement metric that I Created to measure how well code is recycled.
+In most cases it will vary between 0 and 1 where lower is better. It is measured by simply 
 putting the number of functions declared by the number of times declared functions are called.  In larger programs it 
 might be useful for understanding how well generalization is employed.  For this purpose it probably tells us little. 
 But data is always good, right
 
-# Analysis
+# Analysis of FizzBuzzLimited
 
 There is an abundance of highly specific functions in the limited version that can only be distinguished from each 
 other by absurdly long names.  Since the functions do very limited things, the names are nearly as long as their 
