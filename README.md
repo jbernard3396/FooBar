@@ -1,6 +1,6 @@
 # FizzBuzz
 ## Goal
-Solve the classic FizzBuzz problem without ever using more than two logical lines of code [(see below)](#logical-lines-of-code) in a single function
+Solve the classic FizzBuzz problem without ever using more than two [logical lines of code](#logical-lines-of-code) in a single function
 
 
 ## Purpose
