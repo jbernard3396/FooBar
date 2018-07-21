@@ -27,7 +27,7 @@ def isMultipleOf5(x):
 
 
 def getWord(x):
-    return getFizzIfMultipleOf3(x) +  getBuzzIfMultipleOf5(x)
+    return getFizzIfMultipleOf3(x) + getBuzzIfMultipleOf5(x)
 
 
 def getFizzIfMultipleOf3(x):
