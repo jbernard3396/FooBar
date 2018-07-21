@@ -4,7 +4,7 @@ Mission was successful.  I was able to get the exact functionality I wanted with
 # Statistical comparison of limited to regular file
 
 | Category                 | Limited       | Regular |
-| ------------------------ |:-------------:| -------:|
+| ------------------------ |:-------------:| :------:|
 | Physical Lines           | 77            | 19      |
 | Logical Lines            | 27            | 12      |
 | Functions                | 16            | 2       |
@@ -23,9 +23,11 @@ There is an abundance of highly specific functions in the limited version that c
 other by absurdly long names.  Since the functions do very limited things, the names are nearly as long as their 
 functionality, and have the only way to make them specific enough to be accurate is to enumerate every line of code 
 in the function in the function name.
+
 Organization is also very difficult.  The general convention of listing major functions in order of use followed by 
 their helper functions with functions that help multiple major functions at the end makes no sense with these 
 constraints.  Instead I chose to list functions from top to bottom depending on how high level they were.
+
 The other interesting thing that I noticed was that the general strategy was to consider all of the cases and break 
 them off one at a time.  This is essentially what an if else does, which I suppose makes sense, since I was simply 
 implementing an If else  
